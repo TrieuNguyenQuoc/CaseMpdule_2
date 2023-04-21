@@ -1,9 +1,9 @@
 package model;
 
 public class EmployeeFullTime extends model.Employee implements Comparable<EmployeeFullTime>{
-    private double bonus; // thưởng
-    private double fine; // phạt
-    private double salary; // lương
+    private double bonus;
+    private double fine;
+    private double salary;
 
     public EmployeeFullTime(String employeeCode, String name, int age, String phone, String email, double bonus, double fine, double salary) {
         super(employeeCode, name, age, phone, email);
